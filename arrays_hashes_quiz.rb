@@ -97,11 +97,12 @@ puts users['Avril'][:pets]['colin']
 # 5. Return the smallest of Erik's favorite numbers
 
 # 6. Add the number `7` to Erik's favorite numbers
-
+users['Erik'][:favourite_numbers] = 7,12, 14, 85, 88 
 # 7. Change Erik's hometown to Edinburgh
-
+users['Erik'][:home_town] = "Edinburgh"
 # 8. Add a pet dog to Erik called "Fluffy"
-
+users["Erik"][:pets]['Fluffy'] = :Dog
 # 9. Add yourself to the users hash
 users.store("Chris", {:twitter => "cbrown" })
 puts users 
+
