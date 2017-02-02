@@ -95,9 +95,9 @@ puts users['Erik'][:favourite_numbers]
 # 4. Return the type of Avril's pet Colin
 puts users['Avril'][:pets]['colin']
 # 5. Return the smallest of Erik's favorite numbers
-
+puts users['Erik'][:favourite_numbers].values.min #nope doesn't work
 # 6. Add the number `7` to Erik's favorite numbers
-users['Erik'][:favourite_numbers] = 7,12, 14, 85, 88 
+users['Erik'][:favourite_numbers] = 7,8, 12, 24
 # 7. Change Erik's hometown to Edinburgh
 users['Erik'][:home_town] = "Edinburgh"
 # 8. Add a pet dog to Erik called "Fluffy"
